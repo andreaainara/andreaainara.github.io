@@ -12,13 +12,6 @@
    * 2. Prevent iOS and IE text size adjust after device orientation change,
    *    without disabling user zoom.
    */
- /*.jumbotron {
-   background-image: url('http://s33.postimg.org/4hohz5uun/Portfolio_Cover.jpg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   height: 650px;
-   width: 1050px;
- }*/
 
  .my-img {
    border-radius: 50%;
@@ -26,52 +19,53 @@
    width: 300px;
  }
 
- .jumbotron {
+  .jumbotron {
   text-align: center;
   background: url('http://s33.postimg.org/4hohz5uun/Portfolio_Cover.jpg') no-repeat center center;
   background-size: cover;
   height: 650px;
   padding: 0rem; }
+
   .header .main-header {
     color: #666; }
 
-.header-subnav {
-  float: none;
-  position: relative;
-  top: 38rem;
-  text-align: center;
-  margin-bottom: 0; }
-  .header-subnav li {
+  .header-subnav {
     float: none;
-    display: inline-block; }
-    .header-subnav li a {
-      padding: 0.9rem 1rem 0.75rem;
-      font-size: 0.875rem;
-      color: #fff;
-      text-transform: uppercase;
-      display: block;
-      font-weight: bold;
-      letter-spacing: 1px; }
-      .header-subnav li a.is-active {
-        background: rgba(250, 250, 250, 0.7);
-        color: #333; }
-      .header-subnav li a:hover {
-        background: rgba(250, 250, 250, 0.7);
-        color: #333;
-        transition: all .25s ease-in-out; }
+    position: relative;
+    top: 38rem;
+    text-align: center;
+    margin-bottom: 0; }
+    .header-subnav li {
+      float: none;
+      display: inline-block; }
+      .header-subnav li a {
+        padding: 0.9rem 1rem 0.75rem;
+        font-size: 1.5rem;
+        color: #fff;
+        text-transform: uppercase;
+        display: block;
+        font-weight: bold;
+        letter-spacing: 5px; }
+        .header-subnav li a.is-active {
+          background: rgba(250, 250, 250, 0.7);
+          color: #333; }
+        .header-subnav li a:hover {
+          background: rgba(250, 250, 250, 0.7);
+          color: #333;
+          transition: all .25s ease-in-out; }
 
-html {
-  font-family: sans-serif;
-  /* 1 */
-  -ms-text-size-adjust: 100%;
-  /* 2 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  html {
+    font-family: sans-serif;
+    /* 1 */
+    -ms-text-size-adjust: 100%;
+    /* 2 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */ }
 
-/**
-   * Remove default margin.
-   */
-body {
-  margin: 0;
-  color: black;
- }
+  /**
+     * Remove default margin.
+     */
+  body {
+    margin: 0;
+    color: black;
+   }
