@@ -14,52 +14,39 @@
         </ul>
     </div>
 
-    <table class="row" dir="rtl">
-        <tr>
+    <paper-card heading="Envision" image="http://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=http%3A%2F%2Fenvision-app.herokuapp.com" class="white">
+  <div class="card-content">An online platform for building vision boards.</div>
+  <div class="card-actions">
+    <paper-button>Share</paper-button>
+    <paper-button>Explore</paper-button>
+    <paper-icon-button icon="hardware:keyboard-arrow-up" title="more info" onclick="_toggle()" style="float:right;">
+    </paper-icon-button>
+    <iron-collapse id="more-info" style="width:100%;">
+      <p class="lead"><strong><em>An online vision board builder, targeted towards people who suffer from mental illnesses as a productive way for them to focus on their lives outside of their illness.</em></strong></p>
+      <p class="subheader"><strong>Tech Used: </strong>Ruby on Rails, HTML/CSS, PostgreSQL
+          <br>
+          <strong>Role: </strong>Lead/Sole Developer;
+          <br>
+          <em>To try out the app:</em>
+          <br>
+          <strong>email: </strong>test@email.com
+          <br>
+          <strong>password: </strong>123456
+          <br>
+      </p>
+    </iron-collapse>
+    <script>
+      function _toggle() {
+        var moreInfo = document.getElementById('more-info');
+        var iconButton = Polymer.dom(event).localTarget;
+        iconButton.icon = moreInfo.opened ? 'hardware:keyboard-arrow-up'
+                                          : 'hardware:keyboard-arrow-down';
+        moreInfo.toggle();
+      }
+    </script>
+  </div>
+</paper-card>
 
-            <td class="wrapper" dir="ltr">
-
-                <table class="four columns">
-                    <tr>
-                        <td class="center" align="center">
-                            <center>
-                                <img class="center" src="http://shrinktheweb.snapito.io/v2/webshot/spu-ea68c8-ogi2-3cwn3bmfojjlb56e?size=800x0&screen=1024x768&url=http%3A%2F%2Fenvision-app.herokuapp.com" width="365" height="250" alt="Majestic Kitty" />
-                            </center>
-                        </td>
-                        <td class="expander"></td>
-                    </tr>
-                </table>
-
-            </td>
-
-            <td class="wrapper last" dir="ltr">
-
-                <table class="eight columns">
-                    <tr>
-                        <td>
-                            <p class="lead"><strong><em>An online vision board builder, targeted towards people who suffer from mental illnesses as a productive way for them to focus on their lives outside of their illness.</em></strong></p>
-                            <p class="subheader"><strong>Tech Used: </strong>Ruby on Rails, HTML/CSS, PostgreSQL
-                                <br>
-                                <strong>Role: </strong>Lead/Sole Developer;
-                                <br>
-                                <em>To try out the app:</em>
-                                <br>
-                                <strong>email: </strong>test@email.com
-                                <br>
-                                <strong>password: </strong>123456
-                                <br>
-                            </p>
-                        </td>
-                        <td class="expander"></td>
-                    </tr>
-                </table>
-
-            </td>
-
-        </tr>
-    </table>
-
-    <hr/>
     <table class="row">
         <tr>
 
