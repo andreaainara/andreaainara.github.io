@@ -142,41 +142,49 @@
     .large-up-3 > .column:last-child, .large-up-3 > .columns:last-child {
       float: left; }
 
-  .callout {
-    margin: 1 1 2rem 1;
-    padding: 3rem;
-    border: 1px solid rgba(10, 10, 10, 0.25);
-    border-radius: 0;
+  .service {
+  width: 40%;
+  height: 450px;
+  margin: 50px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .service .service-icon-box {
     position: relative;
-    color: #0a0a0a;
-    background-color: white; }
-    .callout > :first-child {
-      margin-top: 0; }
-    .callout > :last-child {
-      margin-bottom: 0; }
-    .callout.primary {
-      background-color: #def0fc; }
-    .callout.secondary {
-      background-color: #ebebeb; }
-    .callout.success {
-      background-color: #e1faea; }
-    .callout.warning {
-      background-color: #fff3d9; }
-    .callout.alert {
-      background-color: #fce6e2; }
-    .callout.small {
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      padding-left: 1rem; }
-    .callout.large {
-      padding-top: 3rem;
-      padding-right: 3rem;
-      padding-bottom: 3rem;
-      padding-left: 3rem; }
-
-  .callout-img {
-    height: 250px;
-    width: 365px;
-    align-content: center;
-  }
+    top: 100px;
+    display: inline-block;
+    margin-bottom: 40px;
+    padding: 10px;
+    background: white;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+  .service .service-heading {
+    position: relative;
+    top: 30px;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  .service .service-description {
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0); }
+  .service .service-icon-box > img.service-icon {
+    width: 100px; }
+  .service:hover {
+    border-color: #00a8ff; }
+  .service:hover .service-icon-box {
+    width: 150px;
+    top: -50px; }
+  .service:hover .service-heading {
+    top: -30px; }
+  .service:hover .service-description {
+    top: -40px;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1); }
