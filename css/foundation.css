@@ -23,7 +23,7 @@
   text-align: center;
   background: url('http://s33.postimg.org/4hohz5uun/Portfolio_Cover.jpg') no-repeat center center;
   background-size: cover;
-  height: 650px;
+  height: 600px;
   padding: 0rem; }
 
   .header .main-header {
@@ -32,10 +32,9 @@
   .header-subnav {
     float: none;
     position: relative;
-    top: 30rem;
+    top: 25rem;
     text-align: center;
-    margin-bottom: 0;
-    overflow: visible!important; }
+    margin-bottom: 0; }
   .header-subnav li {
     float: none;
     display: inline-block; }
@@ -67,7 +66,7 @@
      * Remove default margin.
      */
    body {
-   padding-bottom: 30px;
+   padding-bottom: 100px;
    margin: 0 auto;
    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
    font-weight: normal;
@@ -80,6 +79,18 @@
    .div {
      display: inline-grid;
    }
+
+   hr {
+    display: block;
+    -webkit-margin-before: 0.5rem;
+    -webkit-margin-after: 0.5rem;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 680px;
+    color: black;
+}
 
   #map_canvas img,
   #map_canvas embed,
@@ -451,7 +462,8 @@
   .medium-offset-3 {
     margin-left: 25%; }
   .medium-5 {
-    width: 41.66667%; }
+    width: 41.66667%;
+    padding-left: 390px;  }
   .medium-push-5 {
     position: relative;
     left: 41.66667%; }
@@ -481,7 +493,8 @@
   .medium-offset-6 {
     margin-left: 50%; }
   .medium-8 {
-    width: 66.66667%; }
+    width: 66.66667%;
+    padding-left: 0;}
   .medium-push-8 {
     position: relative;
     left: 66.66667%; }
@@ -870,6 +883,15 @@
         border-radius: 2px 2px 0 0;
         height: 300px; }
 
+  .hero p {
+    color: #000;
+    line-height: 1.75em;
+    font-weight: 200;
+    text-align: center;
+    position: relative;
+    margin-bottom: 2rem; }
+
+
         i {
         font-size: 2.5rem; }
 
@@ -924,6 +946,9 @@
       .mail span {
         background-color: #db5a3c; }
 
+      .page span {
+        background-color: #000000; }
+
       .icon-button .fi-social-twitter {
         color: #4099ff; }
 
@@ -939,7 +964,10 @@
       .icon-button .fi-mail {
         color: #db5a3c; }
 
-      .icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-mail, .icon-button:hover .fi-social-linkedin, .icon-button:hover .fi-social-github {
+      .icon-button .fi-page {
+        color: #000000; }
+
+      .icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-mail, .icon-button:hover .fi-social-linkedin, .icon-button:hover .fi-social-github, .icon-button:hover .fi-page {
         color: white;
         font-size: 2.6rem;
         line-height: 3.9rem; }
