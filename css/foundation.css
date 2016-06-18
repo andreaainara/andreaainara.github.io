@@ -949,11 +949,6 @@
       .page span {
         background-color: #000000; }
 
-      .icon-button .fi-social-twitter {
-        color: #4099ff; }
-
-      .icon-button .fi-social-facebook {
-        color: #3b5998; }
 
       .icon-button .fi-social-linkedin {
         color: #3b5998; }
@@ -967,7 +962,7 @@
       .icon-button .fi-page {
         color: #000000; }
 
-      .icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-mail, .icon-button:hover .fi-social-linkedin, .icon-button:hover .fi-social-github, .icon-button:hover .fi-page {
+      .icon-button:hover .fi-mail, .icon-button:hover .fi-social-linkedin, .icon-button:hover .fi-social-github, .icon-button:hover .fi-page {
         color: white;
         font-size: 2.6rem;
         line-height: 3.9rem; }
